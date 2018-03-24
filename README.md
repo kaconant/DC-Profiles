@@ -1,5 +1,9 @@
-# EDIT ME
+# DigitalCrafts Showcase
 
-Write a description of what the DC Profiles app is. Here's a good resource for how to format a Github Readme:
+DigitalCrafts Showcase is a webpage to display the Flex and Immersive Students from Digital Crafts. 
 
-https://gist.github.com/PurpleBooth/109311bb0361f32d87a2
+The purpose of this webpage is: 
+-To highlight student achievement and progress
+-To show each student's personality and interests
+-To allow employers to easily access the student database.
+
