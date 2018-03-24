@@ -1,13 +1,2 @@
 body {
-    background-color: #ddd;
-}
-
-.navbar {
-    display: flex;
-    justify-content: space-around;
-}
-
-.fullbody {
-    background: url("../img/transparency.jpg");
-    height: 380px; 
 }
