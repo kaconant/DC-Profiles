@@ -8,50 +8,55 @@
     </head>
     <body>
         <!--navbar start-->
-        <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="navbar-collapse collapse w-100 dual-collapse2 order-1 order-md-0">
+                <ul class="navbar-nav ml-auto text-center">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="mx-auto my-2 order-0 order-md-1 position-relative">
+                <a class="mx-auto" href="#">
+                    <img src="img/logo.png" class="rounded-circle">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            <div class="navbar-collapse collapse w-100 dual-collapse2 order-2 order-md-2">
+                <ul class="navbar-nav mr-auto text-center">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Students</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!--navbar end-->
+        <!--full page-->
+        <div class="container-fluid">
             <div class="row">
-                <div class="col-md-5">
-                    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                        <div class="navbar-collapse collapse w-100 dual-collapse2 order-1 order-md-0">
-                            <ul class="navbar-nav ml-auto text-center">
-                                <li class="nav-item active">
-                                    <a class="nav-link" href="#">Home</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">About</a>
-                                </li>
-                            </ul>
+                <div class="col-md-5 margin-0 header">
+                    <h2 class="mainheader">DigitalCrafts Showcase</h2>
+                    <h5 class="subheader">Check out who could be the next developer on your team!</h5>
+                    <div class="subscribeGroup">
+                        <div class="input-group input-group-lg">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="inputGroup-sizing-lg">Subscribe</span>
+                            </div>
+                            <input class="subscribe" type="text" class="form-control" aria-label="Large" placeholder="Get updates!" aria-describedby="inputGroup-sizing-sm">
                         </div>
-                        <div class="mx-auto my-2 order-0 order-md-1 position-relative">
-                            <a class="mx-auto" href="#">
-                                <img src="img/logo.png" class="rounded-circle">
-                            </a>
-                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
-                                <span class="navbar-toggler-icon"></span>
-                            </button>
-                        </div>
-                        <div class="navbar-collapse collapse w-100 dual-collapse2 order-2 order-md-2">
-                            <ul class="navbar-nav mr-auto text-center">
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Students</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Contact</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </nav>
-                    <div class="header">
-                        <h2>DigitalCrafts Showcase</h2>
-                        <h5>Check out who could be the next developer on your team!</h5>
                     </div>
                 </div>
-                <!--navbar end-->
-                <div class="col-md-7 margin-0 fullbody">
-
+                <div class="col-md-7 fullbody">
                 </div>
             </div>
         </div>
-        
     </body>
 </html>

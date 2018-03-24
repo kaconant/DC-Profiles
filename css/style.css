@@ -1,0 +1,32 @@
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 5px 0 5px 0;
+}
+
+.mainheader {
+    padding: 20px;
+}
+
+.subheader {
+    padding: 20px;
+}
+
+.subscribeGroup {
+    align-content: center;
+}
+
+.subscribe {
+    padding: 20px;
+    align-items: center;
+}
+
+.fullbody {
+    background: url("../img/peach.jpg");
+    height: 700px;
+    max-width: 100%;
+}
