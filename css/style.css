@@ -5,7 +5,17 @@
     justify-content: center;
     flex-direction: column;
     text-align: center;
-    padding: 5px 0 5px 0;
+    padding: 5px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.jumbotron {
+    margin-bottom: 0px;
+    padding: 0px;
 }
 
 .mainheader {
@@ -14,19 +24,10 @@
 
 .subheader {
     padding: 20px;
+    line-height: 150%;
 }
 
-.subscribeGroup {
-    align-content: center;
-}
-
-.subscribe {
-    padding: 20px;
-    align-items: center;
-}
-
-.fullbody {
-    background: url("../img/peach.jpg");
-    max-width: 100%;
-    height: 700px;
+.drakeface {
+    width: 100%;
+    height: 50%;
 }
